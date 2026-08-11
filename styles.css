@@ -186,6 +186,25 @@ body::after {
     padding: 0 6rem;
 }
 
+.hero-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-logo {
+    height: 60px;
+    width: auto;
+}
+
+.hero-brand-name {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: 2px;
+}
+
 .hero-right {
     position: relative;
     height: 100%;
@@ -559,6 +578,72 @@ body::after {
 .cta-highlight {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
+}
+
+/* Sample Calls Section */
+.sample-calls {
+    background: var(--color-off-white);
+    padding: 5rem 0;
+}
+
+.sample-calls-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.sample-calls h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--color-black);
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.sample-calls .section-subtitle {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-dark);
+    font-size: 1.1rem;
+}
+
+.sample-calls-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.sample-call-card {
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sample-call-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.sample-call-icon {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.sample-call-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+
+.sample-call-card audio {
+    width: 100%;
+    margin-top: 1rem;
 }
 
 /* About Section */
