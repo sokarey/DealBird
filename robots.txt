@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dealbird-us.com/sitemap.xml
