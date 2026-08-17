@@ -1492,13 +1492,13 @@ body::after {
 }
 
 .footer-logo-tagline {
-    color: #7C3AED;
+    color: #A78BFA;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
 .footer-description {
-    color: #BDBDBD;
+    color: #D1D5DB;
     font-size: 0.95rem;
     line-height: 1.7;
     margin-bottom: 1.5rem;
@@ -1531,10 +1531,10 @@ body::after {
 .footer-company ul li a,
 .footer-resources ul li a,
 .footer-legal ul li a {
-    color: #BDBDBD;
+    color: #D1D5DB;
     text-decoration: none;
     font-size: 0.95rem;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: all 0.3s ease;
 }
 
